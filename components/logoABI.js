@@ -1169,7 +1169,7 @@ export default function ContractABI() {
                   "type":"uint8"
                }
             ],
-            "internalType":"struct GenericNFTPumpContract.WhitelistClaimPass",
+            "internalType":"struct NumbBunnyNFT.WhitelistClaimPass",
             "name":"whitelistClaimPass",
             "type":"tuple"
          }
