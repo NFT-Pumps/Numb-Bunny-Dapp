@@ -154,10 +154,10 @@ const AdminComponents = () => {
             {(!currentUseState.isConnected) ?
               <Col lg="12" md="12" className="align-self-center">
                 {(currentUseState.network == "rinkeby") ? <h3 style={{ color: "#fff" }}>DEMO ONLY RINKEBY</h3> : ""}
-                <h3 className="title" style={{ color: "#000000"}}>
+                <h3 className="title" style={{ color: "#ff1694"}}>
                   { process.env.pageHeader }
                 </h3>
-                <h4 className="subtitle font-light" style={{ color: "#000000"}}>
+                <h4 className="subtitle font-light" style={{ color: "#ff1694"}}>
                   { process.env.pageText }
                   <br />
                 </h4>

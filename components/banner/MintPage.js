@@ -95,10 +95,10 @@ const MintPage = () => {
             {(!currentUseState.isConnected) ?
               <Col lg="6" md="6" className="align-self-center">
                 {(currentUseState.network == "rinkeby") ? <h3 style={{ color: "#fff" }}>DEMO ONLY RINKEBY</h3> : ""}
-                <h3 className="title" style={{ color: "#000000"}}>
+                <h3 className="title" style={{ color: "#ff1694"}}>
                   { process.env.pageHeader }
                 </h3>
-                <h4 className="subtitle font-light" style={{ color: "#000000"}}>
+                <h4 className="subtitle font-light" style={{ color: "#ff1694"}}>
                   { process.env.pageText }
                   <br />
                 </h4>
@@ -160,14 +160,14 @@ const MintPage = () => {
                       </a>
                       <br />
                       <br />
-                      <h4 className="subtitle font-light" style={{ color: "#000000"}}>
+                      <h4 className="subtitle font-light" style={{ color: "#ff1694"}}>
                         NFT&apos;s minted {currentUseState.numMinted} of {process.env.maxMint}
                       </h4>
                       <br />
                       {currentUseState.hashHtml}
                     </>
                     :
-                    <h1 className="subtitle font-light" style={{ color: "#000000"}}>Public mint is currently closed!</h1>
+                    <h1 className="subtitle font-light" style={{ color: "#ff1694"}}>Public mint is currently closed!</h1>
                   }
                 </>
               </Col>
