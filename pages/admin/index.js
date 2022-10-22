@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <>{process.env.siteTitle}</title>
+        <title>{process.env.siteTitle}</title>
         <meta
           name="description"
           content={process.env.siteTitle}
