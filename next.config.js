@@ -23,11 +23,11 @@ module.exports = {
     mainWWW: 'https://NumbBunnyNFT.com/',
     title: 'Numb Bunny NFT',
     links : {
-      opensea : "https://opensea.io/collection/farm-folk-nft",
+      opensea : "https://opensea.io/collection/numb-bunny-nft",
       discord : "https://discord.com/invite/hfyRXCuc",
       twitter : "https://twitter.com/NumbBunnyNFT"
     },
-    maxMint: 3100,
+    maxMint: 3000,
     maxMintCount: 50,
     messagehash: '0x865f293da4a629f00bd8072be6115031c608fa4a13b819fd087811752fc8bb90',
     signatureBytes: '0x4b7715f34823936b045d1e5ca6c295b7f5ecff3d0c158118c71441ed217c3ddb026617ce49dc15781bdb25c8c34ed4a1f4d68df6080f6dd0004511cf05032bf01c',
