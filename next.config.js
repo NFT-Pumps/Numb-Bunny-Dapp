@@ -19,8 +19,8 @@ module.exports = {
     pageText : 'Mint the Darker Side of the Bunnies',
     //mintType: "Whitelist",
     blockExplorerURL: 'https://.etherscan.io/',
-    www: 'https://NumbBunnyNFT.com/',
-    mainWWW: 'https://NumbBunnyNFT.com/',
+    www: 'https://StuffyBunnyNFT.com/',
+    mainWWW: 'https://StuffyBunnyNFT.com/',
     title: 'Numb Bunny NFT',
     links : {
       opensea : "https://opensea.io/collection/numb-bunny-nft",
